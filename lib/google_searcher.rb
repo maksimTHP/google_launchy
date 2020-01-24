@@ -23,7 +23,7 @@ def url
 end
 
 
-#This def will test if my research is empty or not with the other def check_if_user_gave_input the it will put my url into the launchy command
+#This def will test if my research is empty or not with the other def check_if_user_gave_input then it will put my url into the launchy command
 def perform
   check_if_user_gave_input
   Launchy.open("#{url}")
