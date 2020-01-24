@@ -6,7 +6,7 @@ def check_if_user_gave_input
 end
 
 
-#This def will put the ARGV into a variable (search_phrase), set this variable as an array (to_a) then join all my array as a string sentence where words are separated by "+" then return the sentence with "+".
+#This def will put the ARGV as a sentence of concatened words joined by + string
 def what_to_search
   ARGV.join("+")
 end
